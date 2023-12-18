@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.navbar-expand-lg {
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+  background-color: #e7e5e5 !important;
+}
+
+.home_background {
+  background-image: url("../assets/back1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: "90vh";
+}
+.button_class {
+  transition: 0.3s ease-in-out;
+}
+
+.button_class:hover {
+  background-color: #3e9d7c !important;
+}
+.button_vision-class {
+  transition: 0.3s ease-in-out;
+}
+
+.button_vision-class:hover {
+  background-color: #036e8c !important;
+}
+
+.signUp_Form {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 8px;
+  margin: 80px;
+}
+.register_form {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 8px;
+  margin: 40px 0 80px;
+}
+
+.signup_form_control {
+  border: none;
+  outline: none;
+  padding: 12px 3px 0px !important;
+}
+
+.google_facebook_link {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px !important;
+}
+
+.homeWrapper--section {
+  background-color: #036e8c;
+  padding: 50px;
+  color: #fff;
+}
+.homeWrapper--section .container h4 {
+  font-size: 20px;
+}
+
+.aboutVision-Container {
+  width: 100%;
+  background-color: rgba(44, 50, 61, 0.9);
+}
+
+.cust_apply_box {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+/* bank slider  */
+.slick-slide > div {
+  margin: 0 10px;
+}
+.smallsize_button {
+  display: none;
+}
+
+.cibil_banner_img {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-image: url("../assets/cibilBanner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(2px);
+}
+.cibil_banner_img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.ourProducts_card {
+  width: 22rem;
+  margin: 20px 0;
+}
+
+.ourProducts_card img {
+  height: 250px;
+}
+
+.NoHiddenFeeImg {
+  background-image: url(../assets/NoHiddenFee.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.NoHiddenFeeImg h2 {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.NoHiddenFeeImg:hover h2 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.NoHiddenFeeImg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.LessDocuments {
+  background-image: url(../assets/LessDocuments.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.LessDocuments h2 {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.LessDocuments:hover h2 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.LessDocuments::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.SpecialistTeam {
+  background-image: url(../assets/specialistTeam.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.SpecialistTeam h2 {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.SpecialistTeam:hover h2 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.SpecialistTeam::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.SimpleLoanProcess_Img {
+  transition: all 0.3s ease-in-out;
+}
+
+.SimpleLoanProcess_Img:hover {
+  background-color: #036e8c !important;
+  color: #ffffff !important;
+}
+.issueRelatedCibil {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .ourProducts_card {
+    width: 18rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .ourProducts_card {
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .signUp_Form {
+    margin: 20px;
+  }
+  .smallsize_button {
+    display: block;
+    height: 50px;
+    margin: 0 4px;
+    border: none;
+    border-radius: 5px;
+  }
+  .smallSize_block {
+    display: none;
+  }
+  .margin_cibil {
+    margin: 50px 0;
+  }
+  .cibil_img {
+    margin: 0 0 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cibil_img img {
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .ourProducts_card {
+    width: 22rem;
+  }
+  .smallScreenNone {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .issueRelatedCibil {
+    display: block;
+  }
+  .issueCibil {
+    display: none;
+  }
+  .signUp_Form {
+    margin: 20px;
+  }
+  .smallsize_button {
+    display: block;
+    height: 50px;
+    margin: 0 4px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .smallSize_block {
+    display: none;
+  }
+  .smallScreenNone {
+    display: none;
+  }
+}
+
+.calc_class {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+}

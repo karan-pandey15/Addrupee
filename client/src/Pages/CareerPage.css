@@ -1,0 +1,57 @@
+.firstContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.secondContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.CareerboxContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  overflow: hidden;
+}
+.careerFirstDiv {
+  height: 50vh;
+  width: 30vw;
+  margin-top: 100px;
+}
+.careerHeading {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.wrapperContainer {
+  background-color: "#036E8C";
+  border-radius: 20px;
+  padding: 50;
+}
+.careerRec {
+  text-align: center;
+}
+
+@media screen and (max-width: 650px) {
+  .careerFirstDiv {
+    width: 80vw;
+    height: 20vh;
+    margin-top: 30px;
+  }
+  .careerHeading {
+    font-size: 1.8rem;
+  }
+  .imgContainer img {
+    height: 400px;
+    width: 400px;
+    margin-top: 100px;
+  }
+  .wrapperContainer {
+    padding: 0;
+  }
+  .careerRec {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+}

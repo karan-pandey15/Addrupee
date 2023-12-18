@@ -1,0 +1,40 @@
+/* src/PrivacyPolicy.css */
+.privacy-policy {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.privacy-policy h1 {
+  color: #333;
+}
+
+.privacy-policy h2 {
+  color: #555;
+}
+
+.privacy-policy h3 {
+  color: #777;
+}
+
+.privacy-policy p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.privacy-policy a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 600px) {
+  .main-heading {
+    font-size: 1.5em;
+  }
+
+  .paragraph {
+    font-size: 0.9em;
+  }
+}
